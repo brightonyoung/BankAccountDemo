@@ -1,6 +1,8 @@
 # Back account Management Tool
 
-The Tool is built in ReactJS along with [Ant Design](https://ant.design/). It's not connected to real Backend API but instead, we mock the API call in UI side so no need to reply on any backend development. The data is stored in localStorage so far.
+The Tool is built in ReactJS along with [Ant Design](https://ant.design/). Data flow is managed via Redux and Redux Saga. Recommend to install the Chrome extension [Redux Saga Dev Tools](https://chrome.google.com/webstore/detail/redux-saga-dev-tools/kclmpmjofefcpjlommdpokoccidafnbi?hl=en) so that you can easily monitor the data flow and request status.
+
+The app is not connected to real Backend API but instead, we mock the API call in UI side so no need to reply on any backend development. The data is stored in localStorage so far.
 
 So far it only support one Currency (i.e. HKD) but feasible to extend in the futher. Meanwhile there are default 3 accounts and cannot add new account via UI now.
 
