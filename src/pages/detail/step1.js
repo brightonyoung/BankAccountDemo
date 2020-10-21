@@ -61,6 +61,13 @@ class Step1 extends Component {
           <TextArea rows={2} />
         </Form.Item>
         <div style={{ display: "flex", justifyContent: "flex-end" }}>
+          <Button
+            type="primary"
+            htmlType="submit"
+            className={styles.actionButton}
+          >
+            Next
+          </Button>
           <Popconfirm
             title="Are you sure to close the transaction？"
             okText="Yes"
@@ -69,13 +76,6 @@ class Step1 extends Component {
           >
             <Button>Close</Button>
           </Popconfirm>
-          <Button
-            type="primary"
-            htmlType="submit"
-            className={styles.actionButton}
-          >
-            Next
-          </Button>
         </div>
       </Form>
     );

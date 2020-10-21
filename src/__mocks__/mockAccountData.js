@@ -31,4 +31,20 @@ export default [
       },
     ],
   },
+  {
+    id: 3,
+    accountNo: "5185-2985-2912-1000",
+    balance: 3000,
+    currency: "HKD",
+    transactions: [
+      {
+        id: 1,
+        timestamp: "2020-10-07 10:13:48",
+        action: "Credit",
+        amount: 3000,
+        currency: "HKD",
+        description: "Credit HKD 3,000.",
+      },
+    ],
+  },
 ];

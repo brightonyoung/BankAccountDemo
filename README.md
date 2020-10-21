@@ -2,6 +2,8 @@
 
 The Tool is built in ReactJS along with [Ant Design](https://ant.design/). It's not connected to real Backend API but instead, we mock the API call in UI side so no need to reply on any backend development. The data is stored in localStorage so far.
 
+So far it only support one Currency (i.e. HKD) but feasible to extend in the futher. Meanwhile there are default 3 accounts and cannot add new account via UI now.
+
 ## Get Started
 
 ### Install
@@ -21,6 +23,12 @@ npm start
 ```
 
 It will be hosted in [http://localhost:3000](http://localhost:3000)
+
+### API
+
+Like mentioned in the description, all APIs are mocked and defined in `src/__mocks__/mockApi` folder and data are stored in localStorage which defined in `src/__mocks__/mockAccountData.js`.
+
+If you would like to add more account, please feel free to change the data in `src/__mocks__/mockAccountData.js` and remember to clear the localStorage in your browser.
 
 ## Requirement
 
