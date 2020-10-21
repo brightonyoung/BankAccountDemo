@@ -1,0 +1,9 @@
+.stepAction {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.actionButton {
+  margin-left: 10px;
+}

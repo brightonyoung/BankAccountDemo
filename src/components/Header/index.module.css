@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px !important;
+  color: white;
+}
+
+.logo {
+  width: 50px;
+}
+
+.logoText {
+  margin-right: 20px;
+  color: white;
+}
+
+.left {
+  display: flex;
+}
+
+.userName {
+  margin-left: 10px;
+  color: white;
+}

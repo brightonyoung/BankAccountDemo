@@ -1,0 +1,32 @@
+.sectionTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.hintText {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.accountContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.accountDropDown {
+  width: 200px;
+}
+
+.accountList {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
